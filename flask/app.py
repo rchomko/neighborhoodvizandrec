@@ -8,7 +8,7 @@ def index():
 
 
 @app.route('/hello-backend')
-def index():
+def backend():
     return 'Hello from backend app!'
 
 app.run(host='0.0.0.0', port=81)
